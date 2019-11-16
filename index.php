@@ -30,6 +30,6 @@ $jhon = new Person ( 'Jhon Doe' );
 
 $jhon -> setAge(30);
 
-$jhon -> age = 9;//override/bypass stoped with private
+/* $jhon -> age = 9;//override/bypass stoped with private */
 
 var_dump ( $jhon -> getAge() );
