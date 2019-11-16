@@ -12,7 +12,7 @@ class LightSwitch {
 
         }
 
-        public function connect () {
+        private function connect () {
 
 
         }
