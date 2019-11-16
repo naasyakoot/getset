@@ -2,7 +2,9 @@
 
     class Person {
 
-        public $age;
+        private $name;
+
+        private $age;
 
         public function __constructor ($name) {
 
