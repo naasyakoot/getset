@@ -1,6 +1,7 @@
 <?php
 
-    class Switch {
+// Switch is reserved
+class LightSwitch {
 
         public function on () {
 
@@ -21,6 +22,6 @@
 
         }
     }
-$switch = new Switch;
+$switch = new LightSwitch();
 
 $switch -> connect();
