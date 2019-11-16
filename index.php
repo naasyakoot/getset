@@ -1,33 +1,23 @@
 <?php
 
-    class Person {
+    class Switch {
 
-        public $age;
+        public function on () {
 
-        public function __constructor ($name) {
-
-            $this -> name = $name;
         }
 
-        public function getAge (  ) {
+        public function off () {
 
-            return $this -> age * 365;
+
         }
 
-        public function setAge ( $age ) {
+        public function connect () {
 
-            if ( $age < 10 ) {
 
-                throw new Exception ( 'Person is not old Enough' );
-            }
-            $this -> age = $age;
+        }
+
+        public function activate () {
+
+
         }
     }
-
-$jhon = new Person ( 'Jhon Doe' );
-
-$jhon -> setAge(30);
-
-$jhon -> age = 9;
-
-var_dump ( $jhon -> getAge() );
