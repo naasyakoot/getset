@@ -21,3 +21,6 @@
 
         }
     }
+$switch = new Switch;
+
+$switch -> connect();
